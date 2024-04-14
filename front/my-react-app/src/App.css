@@ -1,0 +1,266 @@
+.App {
+  text-align: center;
+  background-color: rgba(7, 33, 55, 0.3);
+  margin: 0%;
+  height: fit-content;
+}
+
+.header {
+  width: 95%;
+  margin-left: 80px;
+  margin-bottom: 0px;
+}
+
+
+.side {
+  display: flex;
+  align-items: center;
+  margin-left: 50px
+}
+
+.navbar {
+  padding: 1px; /* 设置内边距 */
+  margin-right: 400px;
+  height: 80px;
+  margin-bottom: 0px;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  height: 80px;
+}
+
+.nav-item {
+  margin-right: 50px; /* 设置链接之间的右侧间距 */
+}
+
+
+.nav-link {
+  text-decoration: none; /* 移除下划线 */
+  margin-top: 5px;
+  color: #ffffff; /* 设置链接文本颜色 */
+  font-weight: 700;
+  font-size: x-large;
+  display: block;
+  height: 100%;
+  transition: color 0.3s ease; /* 添加过渡效果 */
+  align-items: center;
+  border-radius: 4px;
+}
+
+.nav-item:hover .nav-link {
+  background-color: rgb(135, 148, 161); /* 鼠标悬停时修改链接文本颜色 */
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  height:100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+@font-face {
+  font-family: 'Monoton';
+  src: url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+}
+
+.y {
+  font-family: 'Monoton', cursive;
+  font-size: 24px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    transform: scale(10.0);
+    height: 70px;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Content {
+  margin-top: 20px;
+  width: 92%; /* 设置宽度为屏幕宽度的 80% */
+  max-width: 1500px; /* 设置最大宽度为 600px */
+  height: 670px;
+  margin: auto; /* 水平居中 */
+  margin-top: 50px; /* 垂直居中，自定义距离顶部的距离 */
+  padding: 20px; /* 设置内边距为 20px */
+  border-radius: 10px; /* 添加圆角 */
+  background-color: #1b4a88; /* 设置背景颜色 */
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+  float: left;
+  background-color: rgba(255, 255, 255, 0.912);
+  width: 28%;
+  height: 608px;
+  margin-top: 20px;
+  margin-left: 8px;
+  border-radius: 8px;
+}
+
+.p{
+  border-bottom: 1px solid black;
+  margin-left: 40px;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 16px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.content {
+  margin-top: 40px;
+  width: 64%; /* 设置宽度为屏幕宽度的 80% */
+  max-width: 1200px; /* 设置最大宽度为 600px */
+  height: 550px;
+  float: right;
+  margin-top: 20px; /* 垂直居中，自定义距离顶部的距离 */
+  padding: 30px; /* 设置内边距为 20px */
+  border-radius: 10px; /* 添加圆角 */
+  background-color: #f0f0f0; /* 设置背景颜色 */
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+
+.lmlogo {
+  margin-top: 115px;
+}
+
+.o{
+  font-weight: bold;
+  font-size: 26px;
+  color: #605e5e;
+}
+
+
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.input-field {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.button-field {
+  height: 47px;
+  font-weight: bold;
+  font-size: 26px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.button-field:active{
+  transform: scale(1.4);
+}
+
+
+
+.prefix-button {
+  margin-top: 4px;
+  font-size: 9px;
+  font-weight: 600;
+  height: 30px;
+  width: 30px;
+  margin-right: 5px; /* 按钮之间的外边距 */
+  border: none; /* 移除按钮的边框 */
+  outline: none; /* 移除按钮的外轮廓 */
+  transition: transform 0.2s ease-in-out;
+}
+
+.prefix-button:active{
+  transform: scale(1.2);
+}
+
+.bilibili-button {
+  background-color: rgba(253, 110, 186, 0.842);
+  border-radius: 2px;
+}
+
+.tiktok-button {
+  background-color: rgba(110, 186, 253, 0.842);
+  border-radius: 2px;
+}
+
+.youtube-button {
+  background-color: rgba(186, 253, 110, 0.842);
+  border-radius: 2px;
+}
+
+.delete-button{
+  background-color: rgba(131, 131, 131, 0.842);
+  border-radius: 2px;
+}
+
+
+.output-container{
+  margin-top: 12px;
+  border-top: 1px solid gray;
+}
+
+.output-field {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  width: 700px;
+  height: 70px;
+  padding: 10px;
+  border-radius: 8px; /* 添加圆角边框 */
+  box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+
+
